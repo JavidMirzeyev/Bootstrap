@@ -91,7 +91,7 @@ header nav a {
 @media (max-width: 999px) {
   #studio {
     width: 185vw;
-    height: 180vh;
+    height: 95vh;
   }
   #studio .textbox h2 {
     margin: 70px 50px 20px;
