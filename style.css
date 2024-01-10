@@ -35,21 +35,26 @@ header nav a {
   cursor: pointer;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 360px) {
   header {
-    position: fixed;
-    background-color: #212529;
-    z-index: 2;
-    width: 100%;
-    padding: 30px 0;
+    padding: 35px 15px;
+  }
+  header .imgbox {
+    width: 260px;
+    height: 40px;
   }
   .btn {
-    border-radius: 5px;
-    font-size: 12px;
+    border-radius: 10px;
+    font-size: 25px;
     color: #9999ad;
+    margin: 0 0 0 90px;
+    padding: 15px 25px;
     font-weight: 600;
     border: 1px solid #9999ad;
     display: inline-flex;
+  }
+  .btn i {
+    margin: 0 0 0 15px;
   }
   nav a {
     display: none;
@@ -59,7 +64,7 @@ header nav a {
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
   background-position: center center;
   background-size: cover;
-  height: 100vh;
+  width: 100vw;
 }
 #studio .textbox {
   color: white;
@@ -88,10 +93,25 @@ header nav a {
 #studio .btn h2 {
   cursor: pointer;
 }
-@media (max-width: 999px) {
+@media (min-width: 100px) and (max-width: 310px) {
   #studio {
-    width: 185vw;
-    height: 95vh;
+    width: 190vw;
+    height: 180vh;
+  }
+  #studio .textbox h2 {
+    margin: 70px 60px 20px;
+  }
+  #studio .textbox h4 {
+    margin: 0 110px;
+  }
+  #studio .btn {
+    margin: 55px 0 0 0;
+  }
+}
+@media (min-width: 311px) and (max-width: 390px) {
+  #studio {
+    width: 180vw;
+    height: 220vh;
   }
   #studio .textbox h2 {
     margin: 70px 50px 20px;
@@ -265,7 +285,9 @@ header nav a {
   border-radius: 50%;
 }
 #about .Bigbox .btn {
-  padding-top: 35px;
+  position: relative;
+  left: 88%;
+  padding-top: 30px;
   width: 170px;
   height: 170px;
   border: 7px solid #e9ecef;
@@ -288,13 +310,13 @@ header nav a {
     height: 90px;
     border: 5px solid #e9ecef;
   }
-  #about .box .Bigbox .btn {
+  #about .Bigbox .btn {
+    left: 0;
     width: 90px;
     height: 90px;
-    margin-right: 220px;
     border: 5px solid #e9ecef;
   }
-  #about .box .Bigbox .btn h4 {
+  #about .Bigbox .btn h4 {
     color: white;
     font-weight: 600;
     font-size: 15px;
