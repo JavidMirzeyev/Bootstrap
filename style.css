@@ -278,23 +278,23 @@ header nav a {
   font-size: 20px;
   padding: 0 25px 45px;
 }
-@media (max-width: 800px) {
+@media (min-width: 250px) and (max-width: 500px) {
   #about .box h2, #about .box h3, #about .box h5, #about .box h6 {
     margin: 0 20px 0 110px;
   }
-  #about .imgbox img {
+  #about .box .imgbox img {
     left: 0;
     width: 90px;
     height: 90px;
     border: 5px solid #e9ecef;
   }
-  #about .Bigbox .btn {
+  #about .box .Bigbox .btn {
     width: 90px;
     height: 90px;
     margin-right: 220px;
     border: 5px solid #e9ecef;
   }
-  #about .Bigbox .btn h4 {
+  #about .box .Bigbox .btn h4 {
     color: white;
     font-weight: 600;
     font-size: 15px;
