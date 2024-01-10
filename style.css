@@ -64,6 +64,7 @@ header nav a {
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
   background-position: center center;
   background-size: cover;
+  height: 100vh;
   width: 100vw;
 }
 #studio .textbox {
@@ -284,7 +285,7 @@ header nav a {
   border: 7px solid #e9ecef;
   border-radius: 50%;
 }
-#about .Bigbox .btn {
+#about .Bigbox .boxe {
   position: relative;
   left: 88%;
   padding-top: 30px;
@@ -294,13 +295,13 @@ header nav a {
   border-radius: 50%;
   background-color: #ffc800;
 }
-#about .Bigbox .btn h4 {
+#about .Bigbox .boxe h4 {
   color: white;
   font-weight: 600;
-  font-size: 20px;
-  padding: 0 25px 45px;
+  font-size: 25px;
+  padding: 5px 48px;
 }
-@media (min-width: 250px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 500px) {
   #about .box h2, #about .box h3, #about .box h5, #about .box h6 {
     margin: 0 20px 0 110px;
   }
@@ -310,19 +311,19 @@ header nav a {
     height: 90px;
     border: 5px solid #e9ecef;
   }
-  #about .Bigbox .btn {
+  #about .Bigbox .boxe {
     left: 0;
     width: 90px;
     height: 90px;
     border: 5px solid #e9ecef;
   }
-  #about .Bigbox .btn h4 {
+  #about .Bigbox .boxe h4 {
     color: white;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 18px;
     position: relative;
-    right: 25%;
-    bottom: 60%;
+    right: 35%;
+    bottom: 50%;
   }
 }
 
